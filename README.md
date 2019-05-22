@@ -22,7 +22,16 @@ I'm working on preparing automated builds of the modules that could be installed
 
 ### Installing from code
 
-Install the dependency: `npm i @cdk-modules/cognito-auth` or clone this repository. If you just want to install this module standalone, then just run `npm run build:standalone`. If you want to import it into your existing CDK project, continue reading.
+Install the dependency: `npm i @cdk-modules/cognito-auth` or clone this repository. If you just want to install this module standalone, follow this process
+
+```bash
+cd cdk-modules/cognito-auth/
+npm i
+npm run build
+cdk deploy
+```
+
+And a new stack will appear in your account containing this module's resources.
 
 ### Integrating it into your app
 
