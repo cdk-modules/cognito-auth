@@ -1,0 +1,21 @@
+{
+    "name": "@cdk-modules/cognito-auth",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "test": "echo 'ERROR: No tests implemented yet' && exit 1"
+    },
+    "devDependencies": {
+        "@types/nodeunit": "^0.0.30",
+        "nodeunit": "^0.11.2",
+        "typescript": "^3.1.2"
+    },
+    "dependencies": {
+        "@aws-cdk/aws-cognito": "^0.31.0",
+        "@aws-cdk/cdk": "^0.31.0",
+        "@types/node": "^10.12.18"
+    }
+}
